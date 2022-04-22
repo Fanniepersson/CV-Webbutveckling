@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Barlow:wght@300&family=Bona+Nova&family=Marcellus&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Barlow+Condensed:wght@500&family=Barlow:wght@300&family=Bona+Nova&family=Marcellus&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+#portfolio{
+    padding: 10rem 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+nav ul{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s;
+}
+nav ul li.active a{
+    color: deeppink;
+} 
+#portfolio .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+#portfolio h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+ }
+ #portfolio h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Akshar', sans-serif;
+    color:white;
+}
+#portfolio h5{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Akshar', sans-serif;
+    color:white;
+}
+ #portfolio p.subtext{
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+ }
+
+ #portfolio .project-card{
+     width: 300px;
+     height: 500px;
+     box-shadow: 5px 5px 20px rgb(128, 128, 128);
+     margin: 10px;
+ }
+ #portfolio .project-container{
+     display: flex;
+     justify-content: space-around;
+ }
+ #portfolio .project-image{
+     margin-top: 25px;
+     width: 250px;
+     border-radius: 125px;
+ }
+
+#portfolio .wrapper{
+    background: white;
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#portfolio .wrapper a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    color: #585858;
+} 
+#portfolio .modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    transition:all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+#portfolio .modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+#portfolio .modalcontent1{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 2em 3em;
+    border-radius: 4px;
+}
+#portfolio .modalcontent2{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 2em 3em;
+    border-radius: 4px;
+}
+#portfolio .modalcontent3{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 2em 3em;
+    border-radius: 4px;
+}
+a{
+    font-size: 15px;
+    font-weight: 600;
+}
+.modalclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #585858;
+    text-decoration: none;
+    font-size: 36px;
+}
+#modalbox1 h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Akshar', sans-serif;
+    color:grey;
+}
+#modalbox2 h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Akshar', sans-serif;
+    color:grey;
+}
+#modalbox3 h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Akshar', sans-serif;
+    color:grey;
+}
